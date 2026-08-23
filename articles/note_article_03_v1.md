@@ -191,8 +191,11 @@ n=1の実験で「トルク型は環境に弱い」と言い切るのは、さ�
 
 ### 実験コード
 
-今回使ったコードは全部公開しています。
+今回の実験コードとデータは、すべてGitHubで公開しています。
 
-- `codesign_v1.py` … v1（難しくした課題）
-- `codesign_large.py` … 大規模検証（高速版）
-- `analyze_large.py` … 集計スクリプト
+https://github.com/hattoir/robot-codesign
+
+- `src/codesign_v1.py` … v1（難しくした課題）
+- `src/codesign_large.py` … 大規模検証（高速版）
+- `src/analyze_large.py` … 集計スクリプト
+- `results/large_results.jsonl` … 384試行の生データ

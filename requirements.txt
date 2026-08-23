@@ -1,0 +1,11 @@
+# 実験コードの依存関係（v0〜v1の範囲）
+numpy>=1.24
+matplotlib>=3.7
+
+# 図の日本語ラベル用（フォントが無い環境向け・任意）
+# japanize-matplotlib>=1.1
+
+# --- v3（物理シミュレーション）で追加予定 ---
+# gymnasium>=0.29
+# stable-baselines3>=2.2
+# pybullet>=3.2

@@ -1,0 +1,10 @@
+{"method": "simple1", "seed": 1, "genome": ["torque", "cheap", "mid", "small", "light", "high"], "rank": 3, "true_fitness": 66.6, "evals": 119}
+{"method": "simple1", "seed": 2, "genome": ["torque", "cheap", "mid", "small", "light", "high"], "rank": 3, "true_fitness": 66.6, "evals": 120}
+{"method": "simple1", "seed": 3, "genome": ["balanced", "mid", "wobbly", "large", "light", "low"], "rank": 222, "true_fitness": 21.4, "evals": 105}
+{"method": "resample", "seed": 1, "genome": ["balanced", "cheap", "wobbly", "small", "mid", "high"], "rank": 194, "true_fitness": 32.33333333333333, "evals": 334}
+{"method": "resample", "seed": 2, "genome": ["balanced", "cheap", "mid", "mid", "light", "high"], "rank": 120, "true_fitness": 44.400000000000006, "evals": 344}
+{"method": "resample", "seed": 3, "genome": ["torque", "cheap", "stable", "small", "light", "high"], "rank": 2, "true_fitness": 66.86666666666667, "evals": 344}
+{"method": "simple1", "seed": 4, "genome": ["torque", "cheap", "wobbly", "mid", "light", "high"], "rank": 224, "true_fitness": 21.266666666666666, "evals": 102}
+{"method": "simple1", "seed": 5, "genome": ["torque", "cheap", "mid", "small", "light", "high"], "rank": 3, "true_fitness": 66.6, "evals": 103}
+{"method": "resample", "seed": 4, "genome": ["balanced", "cheap", "wobbly", "mid", "light", "high"], "rank": 156, "true_fitness": 39.33333333333334, "evals": 312}
+{"method": "resample", "seed": 5, "genome": ["balanced", "cheap", "wobbly", "large", "light", "high"], "rank": 8, "true_fitness": 62.93333333333332, "evals": 302}

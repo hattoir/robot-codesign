@@ -18,8 +18,17 @@ _FIG = os.path.join(_ROOT, "figures")
 os.makedirs(_FIG, exist_ok=True)
 
 
-# 日本語フォント設定
-plt.rcParams["font.family"] = "Noto Sans CJK JP"
+# 日本語フォント:環境にあるものを上から順に採用する
+# (Ubuntu では Noto CJK、Windows では Yu Gothic などが選ばれる)
+import matplotlib.font_manager as _fm
+_JP_CANDIDATES = ["Noto Sans CJK JP", "Yu Gothic", "Meiryo",
+                  "IPAexGothic", "Noto Sans JP", "MS Gothic"]
+_AVAIL = {f.name for f in _fm.fontManager.ttflist}
+_JP = [n for n in _JP_CANDIDATES if n in _AVAIL]
+if not _JP:
+    print("[warn] 日本語フォントが見つかりません。図のラベルが文字化けします。")
+plt.rcParams["font.family"] = "sans-serif"
+plt.rcParams["font.sans-serif"] = _JP + ["DejaVu Sans"]
 plt.rcParams["axes.unicode_minus"] = False
 
 # 配色
